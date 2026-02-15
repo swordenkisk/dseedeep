@@ -9,31 +9,10 @@
 ╚═════╝ ╚══════╝╚══════╝╚══════╝╚═════╝ ╚══════╝╚══════╝╚═╝
 ```
 
-**Advanced Security Reconnaissance Framework** — Modular, API-rich, faster than Sn1per.
+**Advanced Security Reconnaissance Framework** 
 
 > ⚠️ **For authorized penetration testing and security research ONLY.**
 > Unauthorized scanning is illegal. Always obtain written permission.
-
----
-
-## 🔥 What Makes dseedeep Different
-
-| Feature | Sn1per | dseedeep |
-|---|---|---|
-| API Integrations | 3-4 | **14** |
-| No Metasploit required | ✗ | ✅ |
-| No Nessus required | ✗ | ✅ |
-| No OpenVAS required | ✗ | ✅ |
-| Standalone Python | ✗ | ✅ |
-| Interactive HTML reports | Limited | ✅ Full |
-| WAF Detection | Basic | ✅ 16 WAFs |
-| Tech Fingerprinting | Limited | ✅ 25+ signatures |
-| Google Dorks | No | ✅ 24 categories |
-| FOFA / ZoomEye support | No | ✅ |
-| GreyNoise integration | No | ✅ |
-| Real-time rich terminal | No | ✅ |
-
----
 
 ## 🧩 Modules
 

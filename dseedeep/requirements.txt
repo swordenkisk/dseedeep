@@ -1,0 +1,22 @@
+# dseedeep — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core
+requests>=2.31.0
+urllib3>=2.0.0
+
+# DNS
+dnspython>=2.4.0
+
+# WHOIS
+python-whois>=0.9.0
+
+# Terminal output
+rich>=13.7.0
+
+# Config
+pyyaml>=6.0.1
+
+# SSL
+pyOpenSSL>=23.3.0
+cryptography>=41.0.0

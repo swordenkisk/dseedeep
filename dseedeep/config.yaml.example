@@ -1,0 +1,91 @@
+# ──────────────────────────────────────────────────────────────────────────
+#  dseedeep — API Keys Configuration
+#  Copy this file to config.yaml and fill in your keys.
+#  You can also export keys as environment variables:
+#    export DSEEDEEP_SHODAN="your-key-here"
+# ──────────────────────────────────────────────────────────────────────────
+
+api_keys:
+
+  # ── Shodan  (https://account.shodan.io)
+  # Plans: Free (limited), Membership ($49/mo), Business ($899/mo)
+  shodan: ""
+
+  # ── VirusTotal  (https://www.virustotal.com/gui/user/apikey)
+  # Plans: Free (4 req/min, 500/day), Premium
+  virustotal: ""
+
+  # ── Censys  (https://search.censys.io/account/api)
+  # Plans: Free (250 req/mo), Researcher, Business
+  censys_id:     ""
+  censys_secret: ""
+
+  # ── SecurityTrails  (https://securitytrails.com/app/account)
+  # Plans: Free (50 req/mo), Developer ($50/mo), Business
+  securitytrails: ""
+
+  # ── Hunter.io  (https://hunter.io/api)
+  # Plans: Free (25 req/mo), Starter ($49/mo), Growth ($99/mo)
+  hunter: ""
+
+  # ── URLScan.io  (https://urlscan.io/user/profile)
+  # Plans: Free (public scans), Pro (private, more quota)
+  urlscan: ""
+
+  # ── AbuseIPDB  (https://www.abuseipdb.com/account/api)
+  # Plans: Free (1000 checks/day), Premium
+  abuseipdb: ""
+
+  # ── FOFA  (https://fofa.info/userInfo)
+  # Plans: Free (limited), Standard (¥888/yr), Business (¥2888/yr)
+  fofa_email: ""
+  fofa_key:   ""
+
+  # ── ZoomEye  (https://www.zoomeye.org/profile)
+  # Plans: Free (10,000 results/mo), VIP
+  zoomeye: ""
+
+  # ── GreyNoise  (https://viz.greynoise.io/account)
+  # Plans: Free Community, Enterprise
+  greynoise: ""
+
+  # ── BinaryEdge  (https://app.binaryedge.io/account/api)
+  # Plans: Starter ($10/mo), Business ($200/mo)
+  binaryedge: ""
+
+  # ── LeakIX  (https://leakix.net/settings)
+  # Plans: Free (rate limited), Researcher ($10/mo)
+  leakix: ""
+
+  # ── ipinfo.io  (https://ipinfo.io/account/token)
+  # Plans: Free (50,000/mo), Basic ($99/mo), Standard ($249/mo)
+  ipinfo: ""
+
+  # ── HaveIBeenPwned  (https://haveibeenpwned.com/API/Key)
+  # Plans: Paid per use ($3.50/mo minimum)
+  haveibeenpwned: ""
+
+  # ── GitHub (for code leak search)
+  # Create at: https://github.com/settings/tokens
+  github: ""
+
+  # ── FullHunt (https://fullhunt.io/user/api-keys)
+  # Plans: Free (10 req/day), Pro ($99/mo)
+  fullhunt: ""
+
+
+settings:
+  # Default thread count (increase for faster scans on fast networks)
+  threads: 20
+
+  # Request timeout in seconds
+  timeout: 10
+
+  # Delay between requests (0.0 = no delay, 1.0 = 1 second)
+  rate_limit: 0.0
+
+  # Default User-Agent
+  user_agent: "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"
+
+  # Default output directory
+  output_dir: "reports"
